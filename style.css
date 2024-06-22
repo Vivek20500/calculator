@@ -1,0 +1,65 @@
+@font-face {
+    font-family: digital7Font;
+    src: url(./assets/digital-7.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+video{
+    position: absolute;
+    z-index: -10; 
+    width:100vw;
+    height: 100vh;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+.calculator{
+    border: 1px solid black;
+    padding: 15px;
+    background-color: rgba(2, 255, 242, 0);
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    backdrop-filter: blur(10px);
+}
+.display{
+    background-color: rgba(31, 38, 38, 0.57);
+    backdrop-filter: blur(4px);
+    padding: 10px 20px;
+    border-radius: 0.5rem;
+    box-shadow: inset 0 0 10px black;
+    height: 80px;
+    width: 300px;
+    font-size: 60px;
+    margin-bottom: 10px;
+    text-align: right;
+    color: rgb(157, 157, 157);
+    font-family: digital7Font;
+    
+}
+button{
+    font-size: 3rem;
+    background-color: rgba(109, 246, 216, 0.455);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    height: 80px;
+    width: 80px;
+    box-shadow: 0 0 5px black;
+    font-family: digital7Font;
+}
+button:hover{
+    background-color: rgba(109, 246, 216, 0.7);
+}
+.button-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:8px
+}
