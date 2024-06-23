@@ -43,6 +43,7 @@ video{
     text-align: right;
     color: rgb(157, 157, 157);
     font-family: digital7Font;
+    z-index: 10;
     
 }
 button{
