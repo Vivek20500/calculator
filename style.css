@@ -43,8 +43,7 @@ video{
     text-align: right;
     color: rgb(157, 157, 157);
     font-family: digital7Font;
-    z-index: 10;
-    
+    z-index: 10; 
 }
 button{
     font-size: 3rem;
@@ -63,4 +62,17 @@ button:hover{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap:8px
+}
+
+@media only screen and (max-width: 400px)  {
+    .display{
+        padding: 30px;
+        height: 80px;
+        width: 300px;
+        margin-bottom: 10px;
+        text-align: right;
+        color: rgb(157, 157, 157);
+        font-family: digital7Font;
+        z-index: 10; 
+    }
 }
