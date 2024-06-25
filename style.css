@@ -15,14 +15,14 @@
     flex-direction: column;
     background-image: linear-gradient(#088395,#37B7C3);
 }
-video{
+/* video{
     position: absolute;
     z-index: -10; 
     width:100vw;
     height: 100vh;
     object-fit: cover;
     filter: brightness(50%);
-}
+} */
 .calculator{
     border: 1px solid black;
     padding: 15px;
